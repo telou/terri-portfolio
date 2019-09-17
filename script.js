@@ -11,9 +11,11 @@ $(function() {
       if ($(this).scrollTop() > 900) {
          $("body").addClass("changeColorAgain");
          $("body").removeClass("changeColor");
+         $(".fas").addClass("opaque");
       }
       if ($(this).scrollTop() < 900) {
          $("body").removeClass("changeColorAgain");
+         $(".fas").removeClass("opaque");
       }
       if ($(this).scrollTop() < 300) {
          $("body").removeClass("changeColor");

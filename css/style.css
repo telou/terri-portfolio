@@ -133,7 +133,7 @@ body {
   padding: 15px;
 }
 .section {
-  height: 120vh;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -183,12 +183,22 @@ body {
 }
 
 .fa-sort-down {
-  color: #9CA4AB;
+  background: -webkit-linear-gradient(#E6CCB5, #FB773B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  font-size: 30px;
 }
 
 .body-text {
   font-family: 'Gayathri', sans-serif;
   margin: 0;
+}
+
+.body-blue {
+  color: #13A8AC;
 }
 
 .header-text {
@@ -214,6 +224,11 @@ body {
   margin: 0;
   font-weight: bolder;
   color: #FB773B;
+}
+
+.project-links {
+  color: white;
+  text-decoration: underline;
 }
 
 .body-links:hover {
