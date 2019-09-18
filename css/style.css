@@ -154,6 +154,13 @@ body {
   width: 80%;
 }
 
+.contact-content {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 80%;
+}
+
 .one-page-content {
   position: absolute;
   top: 20px;
@@ -177,6 +184,13 @@ body {
 .right {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 10px;
+}
+
+.video {
+  display: flex;
   justify-content: center;
   align-items: left;
   padding: 10px;
@@ -316,5 +330,8 @@ body {
   }
   .section {
     width: 100vw;
+  }
+  .right {
+    align-items: flex-start;
   }
 }
