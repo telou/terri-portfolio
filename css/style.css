@@ -164,8 +164,8 @@ a:hover {
 
 .contact-content {
   position: absolute;
-  top: 35%;
-  left: 0;
+  top: 0vh;
+  right: 0;
   width: 80%;
 }
 
@@ -181,6 +181,7 @@ a:hover {
 .content-row {
     display: flex;
     height: 90%;
+    justify-content: center;
 }
 
 .content-row-bottom {
@@ -200,7 +201,7 @@ a:hover {
 .video {
   display: flex;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   padding: 10px;
 }
 
@@ -325,7 +326,11 @@ a:hover {
   .content {
     width: 100%;
   }
-   .content-row {
+  .contact-content {
+    width: 100%;
+  }
+
+  .content-row {
     height: 90%;
     flex-direction: column;
   }
