@@ -261,7 +261,7 @@ a:hover {
   font-family: 'Gayathri', sans-serif;
   margin: 0;
   font-weight: bolder;
-  color: #FB773B;
+  color: #13A8AC;
 }
 
 .project-links {
@@ -346,5 +346,8 @@ a:hover {
   }
   .right {
     align-items: flex-start;
+  }
+  .body-text {
+    font-size: 15px;
   }
 }
