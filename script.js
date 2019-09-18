@@ -26,5 +26,21 @@ $(function() {
         $(".blue, .orange").removeClass("opaque");
       }
    });
+   $(document).ready(function () {
+      bodyBlue ();
+      setTimeout(bodyWhite, 100);
+   })
 });
+
+const bodyBlue = () => {
+  document.body.style.backgroundColor = "#13A8AC";
+};
+
+const bodyWhite = () => {
+  document.body.style.backgroundColor = "";
+}
+
+
+
+
 
